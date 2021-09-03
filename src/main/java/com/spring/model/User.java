@@ -1,8 +1,5 @@
 package com.spring.model;
 
-import javax.persistence.Entity;
-
-@Entity
 public class User {
 	public String phoneNo;
 	public String password;
