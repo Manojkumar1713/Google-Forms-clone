@@ -93,7 +93,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>simplespringproject</finalName>
+		<finalName>SimpleSpringProject</finalName>
 		<!-- lock down plugins versions to avoid using Maven 
 				defaults (may be moved to parent pom) -->
 			<plugins>
@@ -117,11 +117,6 @@
 				<plugin>
 					<artifactId>maven-war-plugin</artifactId>
 					<version>3.2.2</version>
-					<configuration>
-	                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
-	                    <warName>simplespringproject</warName>
-	                    <failOnMissingWebXml>false</failOnMissingWebXml>
-                	</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-install-plugin</artifactId>
